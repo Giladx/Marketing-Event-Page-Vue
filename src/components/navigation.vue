@@ -120,7 +120,7 @@ export default {
   display: contents;
 }
 .navigation-image {
-  width: 200px;
+  width: 150px;
   text-decoration: none;
 }
 .navigation-nav {

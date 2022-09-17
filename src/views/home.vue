@@ -8,7 +8,7 @@
             <h1 class="home-text heading1">
               <span>
                 THE MOST INSIGHTFUL
-                <span v-html="rawzhcn"></span>
+                <span v-html="rawhy6c"></span>
               </span>
               <span class="home-text02">MARKETING CONFERENCE</span>
               <br />
@@ -36,12 +36,12 @@
           <div class="home-container1">
             <img
               alt="image"
-              src="/playground_assets/soap-solid-border-1000w.png"
+              src="/playground_assets/toprated-solid-border-1000w.png"
               class="home-image"
             />
             <img
               alt="image"
-              src="/playground_assets/toprated-solid-border-1000w.png"
+              src="/playground_assets/soap-solid-border-1000w.png"
               class="home-image1"
             />
             <img
@@ -50,20 +50,21 @@
               class="home-image2"
             />
           </div>
+          <div class="home-container2"></div>
         </div>
       </div>
       <div class="home-location">
-        <div class="home-container2"></div>
+        <div class="home-container3"></div>
         <div class="home-content-container1 section-container">
-          <div class="home-container3">
+          <div class="home-container4">
             <span class="home-text08">berlin, germany</span>
             <span class="home-text09">7-8 MARCH 2023</span>
-            <div class="home-container4">
+            <div class="home-container5">
               <span class="home-text10"><span>— mob-x</span></span>
               <span class="home-text12"><span>conference</span></span>
               <span class="home-text14"><span>center</span></span>
             </div>
-            <div class="home-container5">
+            <div class="home-container6">
               <span class="home-text16">beautiful, vibrant berlin</span>
               <span class="home-text17">
                 <span>
@@ -146,7 +147,7 @@
         </div>
       </div>
       <div class="home-numbers-banner section-container">
-        <div class="home-container6 max-content-container">
+        <div class="home-container7 max-content-container">
           <div class="home-heading-container1">
             <span class="home-text28">
               Our 12-year conference history in sharing digital marketing insights
@@ -187,19 +188,19 @@
       </div>
       <div class="home-workshops">
         <div class="home-content-container2">
-          <div class="home-container7">
+          <div class="home-container8">
             <h1 class="home-text31 heading2">
               <span>
                 register for
-                <span v-html="rawbtrh"></span>
+                <span v-html="rawqgvf"></span>
               </span>
               <br />
               <span class="home-text34">super insightful</span>
-              <span><span v-html="rawq7wi"></span></span>
+              <span><span v-html="rawljbz"></span></span>
               <br />
               <span>
                 workshops for
-                <span v-html="rawhyse"></span>
+                <span v-html="rawza4p"></span>
               </span>
               <br />
               <span>your team</span>
@@ -286,10 +287,10 @@ export default {
 
   data() {
     return {
-      rawzhcn: ' ',
-      rawbtrh: ' ',
-      rawq7wi: ' ',
-      rawhyse: ' ',
+      rawhy6c: ' ',
+      rawqgvf: ' ',
+      rawljbz: ' ',
+      rawza4p: ' ',
     }
   },
 
@@ -363,10 +364,11 @@ export default {
 .home-sponsors {
   flex: 0 0 auto;
   display: flex;
-  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-top: var(--dl-space-space-threeunits);
   border-color: rgba(144, 149, 167, 0.1);
   border-width: 0px;
   flex-direction: column;
+  padding-bottom: var(--dl-space-space-threeunits);
   border-bottom-width: 1px;
 }
 .home-max-width1 {
@@ -390,13 +392,21 @@ export default {
 .home-image2 {
   object-fit: cover;
 }
+.home-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100px;
+  display: none;
+  align-items: flex-start;
+}
 .home-location {
   width: 100%;
   display: flex;
   align-items: stretch;
   flex-direction: row;
 }
-.home-container2 {
+.home-container3 {
   flex: 0 0 auto;
   width: 50%;
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -413,7 +423,7 @@ export default {
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: row;
 }
-.home-container3 {
+.home-container4 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -441,7 +451,7 @@ export default {
   font-weight: 300;
   line-height: 1.1;
 }
-.home-container4 {
+.home-container5 {
   display: flex;
   align-items: flex-end;
   margin-bottom: var(--dl-space-space-twounits);
@@ -471,7 +481,7 @@ export default {
   line-height: 1.1;
   margin-left: var(--dl-space-space-fiveunits);
 }
-.home-container5 {
+.home-container6 {
   flex: 1;
   width: 100%;
   display: flex;
@@ -597,7 +607,7 @@ export default {
   background-size: cover;
   background-image: url("/playground_assets/group%2029-1500w.png");
 }
-.home-container6 {
+.home-container7 {
   flex-direction: column;
 }
 .home-heading-container1 {
@@ -638,7 +648,7 @@ export default {
   justify-content: center;
   background-color: rgba(144, 149, 167, 0.08);
 }
-.home-container7 {
+.home-container8 {
   flex: 0 0 auto;
   display: flex;
   max-width: 366px;
@@ -770,6 +780,9 @@ export default {
     max-width: 100%;
     margin-bottom: 42px;
   }
+  .home-container2 {
+    display: flex;
+  }
   .home-location {
     flex-direction: column;
   }
@@ -777,11 +790,11 @@ export default {
     padding-top: 0px;
     padding-left: var(--dl-space-space-threeunits);
   }
-  .home-container3 {
+  .home-container4 {
     margin-top: -100px;
     align-items: center;
   }
-  .home-container5 {
+  .home-container6 {
     max-width: 100%;
     margin-left: 0px;
   }
@@ -791,7 +804,7 @@ export default {
   .home-numbers-container {
     grid-template-columns: 1fr 1fr 1fr;
   }
-  .home-container7 {
+  .home-container8 {
     margin-right: var(--dl-space-space-unit);
   }
   .home-image3 {
@@ -825,7 +838,7 @@ export default {
     flex-direction: column-reverse;
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .home-container7 {
+  .home-container8 {
     max-width: 100%;
     padding-top: var(--dl-space-space-twounits);
     margin-right: 0px;
@@ -844,7 +857,11 @@ export default {
   }
 }
 @media(max-width: 479px) {
+  .home-max-width1 {
+    position: relative;
+  }
   .home-container1 {
+    width: 100%;
     justify-content: center;
   }
 }
