@@ -37,31 +37,21 @@ export default {
   flex-direction: row;
 }
 .navigation-links-navlink {
-  color: var(--dl-color-scheme-white);
+  color: #0b5400;
   cursor: pointer;
   transition: 0.3s;
-  text-decoration: none;
-}
-.navigation-links-navlink:hover {
-  color: var(--dl-color-scheme-pink);
 }
 .navigation-links-text {
-  color: var(--dl-color-scheme-white);
+  color: #0b5400;
   cursor: pointer;
   transition: 0.3s;
   margin-left: 41px;
-}
-.navigation-links-text:hover {
-  color: var(--dl-color-scheme-pink);
 }
 .navigation-links-text1 {
-  color: var(--dl-color-scheme-white);
+  color: #0b5400;
   cursor: pointer;
   transition: 0.3s;
   margin-left: 41px;
-}
-.navigation-links-text1:hover {
-  color: var(--dl-color-scheme-pink);
 }
 
 
@@ -75,17 +65,6 @@ export default {
   .navigation-links-nav {
     align-items: flex-start;
     flex-direction: column;
-  }
-  .navigation-links-navlink {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links-text {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links-text1 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
   }
 }
 </style>

@@ -70,7 +70,7 @@ export default {
     },
     image_src: {
       type: String,
-      default: '/playground_assets/logo-1500h.png',
+      default: '/playground_assets/logo-651.svg',
     },
     button: {
       type: String,
@@ -120,6 +120,7 @@ export default {
   display: contents;
 }
 .navigation-image {
+  width: 200px;
   text-decoration: none;
 }
 .navigation-nav {
@@ -131,6 +132,9 @@ export default {
 .navigation-register {
   color: var(--dl-color-scheme-darkblue);
   margin-left: 41px;
+  border-color: var(--dl-color-scheme-pink);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
   background-color: var(--dl-color-scheme-white);
 }
 .navigation-register:hover {
