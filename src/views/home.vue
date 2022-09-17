@@ -6,17 +6,11 @@
         <div class="home-max-width max-content-container">
           <div class="home-content-container">
             <h1 class="home-text">
-              <span class="home-text01">
-                PURE CLEAN AIR DUCT FOR
-                <span v-html="rawmzw4"></span>
-              </span>
-              <span class="home-text02 heading1">HEALTHY LIFE</span>
-              <span class="heading1"><span v-html="raww1pz"></span></span>
+              <span class="home-text01">PURE CLEAN AIR DUCT FOR</span>
+              <span class="heading1"><span v-html="rawevt6"></span></span>
+              <span class="home-text03 heading1">HEALTHY LIFE</span>
+              <span class="heading1"><span v-html="rawsqf9"></span></span>
             </h1>
-            <span class="home-text04">
-              <span>GET YOUR TICKETS AT A HALF PRICE UNTIL 10.10.2022.</span>
-              <span>HURRY UP, LIMITED NUMBERS AVAILABLE.</span>
-            </span>
             <div class="home-btns-container">
               <button class="home-primary button-primary button-lg button">
                 <span>
@@ -60,26 +54,26 @@
         <div class="home-container3"></div>
         <div class="home-content-container1 section-container">
           <div class="home-container4">
-            <span class="home-text13">
+            <span class="home-text11">
               <span>AIR DUCT CLEANING</span>
               <br />
             </span>
-            <span class="home-text16">Air duct cleaning is essential,</span>
+            <span class="home-text14">Air duct cleaning is essential,</span>
             <div class="home-container5">
-              <span class="home-text17">
+              <span class="home-text15">
                 in order to take full advantage of the
               </span>
-              <span class="home-text18">
+              <span class="home-text16">
                 <span>cooling &amp; heating system.</span>
                 <br />
               </span>
             </div>
             <div class="home-container6">
-              <span class="home-text21">
+              <span class="home-text19">
                 The air ducts and filters
-                <span v-html="raw62xm"></span>
+                <span v-html="rawhegy"></span>
               </span>
-              <span class="home-text22 content">
+              <span class="home-text20 content">
                 must be kept clean. Air ducts and filters accumulate dust, odors
                 and even dust mites which can trigger allergies. How can you enjoy
                 a cool interior if it’s causing you to sneeze? When the air ducts
@@ -92,7 +86,7 @@
                   href="tel:+18885031722"
                   class="home-register button-secondary button button-md"
                 >
-                  <span class="home-text23">
+                  <span class="home-text21">
                     <span>call now</span>
                     <br />
                   </span>
@@ -110,26 +104,26 @@
       <div class="home-workshops">
         <div class="home-content-container2">
           <div class="home-container7">
-            <h1 class="home-text26">
-              <span class="home-text27">
+            <h1 class="home-text24">
+              <span class="home-text25">
                 register for
-                <span v-html="rawfods"></span>
+                <span v-html="rawjcnc"></span>
               </span>
               <br class="heading2" />
-              <span class="home-text29 heading2">super insightful</span>
-              <span class="heading2"><span v-html="rawxl54"></span></span>
+              <span class="home-text27 heading2">super insightful</span>
+              <span class="heading2"><span v-html="raw2znd"></span></span>
               <br class="heading2" />
-              <span class="home-text32">
+              <span class="home-text30">
                 workshops for
-                <span v-html="rawbe9k"></span>
+                <span v-html="rawxmds"></span>
               </span>
               <br class="heading2" />
-              <span class="home-text34">your team</span>
+              <span class="home-text32">your team</span>
             </h1>
-            <span class="home-text35">
+            <span class="home-text33">
               get early discounts and group discounts
             </span>
-            <span class="home-text36">
+            <span class="home-text34">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
               sint. Velit officia consequat duis enim velit mollit. Exercitation
               veniam consequat sunt nostrud amet.
@@ -144,8 +138,8 @@
       <div class="home-previous-events section-container">
         <div class="home-max-width2 max-content-container">
           <div class="home-heading-container">
-            <h1 class="home-text37 heading2"><span>previous events</span></h1>
-            <span class="home-text39">
+            <h1 class="home-text35 heading2"><span>previous events</span></h1>
+            <span class="home-text37">
               Take a tour of our previous conferences
             </span>
           </div>
@@ -202,12 +196,12 @@ export default {
 
   data() {
     return {
-      rawmzw4: ' ',
-      raww1pz: ' ',
-      raw62xm: ' ',
-      rawfods: ' ',
-      rawxl54: ' ',
-      rawbe9k: ' ',
+      rawevt6: ' ',
+      rawsqf9: ' ',
+      rawhegy: ' ',
+      rawjcnc: ' ',
+      raw2znd: ' ',
+      rawxmds: ' ',
     }
   },
 
@@ -260,15 +254,27 @@ export default {
   justify-content: center;
 }
 .home-text {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.home-text02 {
-  color: var(--dl-color-scheme-pink);
-}
-.home-text04 {
+  font-size: 64px;
   font-style: normal;
-  font-weight: 500;
-  margin-bottom: 42px;
+  font-family: IBM Plex Sans Condensed;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: var(--dl-space-space-fiveunits);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.home-text01 {
+  color: var(--dl-color-scheme-black);
+}
+.home-text03 {
+  color: var(--dl-color-scheme-pink);
+  font-size: 64px;
+  font-style: normal;
+  font-family: IBM Plex Sans Condensed;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 .home-btns-container {
   flex: 0 0 auto;
@@ -347,7 +353,7 @@ export default {
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text13 {
+.home-text11 {
   color: var(--dl-color-scheme-white);
   font-size: 56px;
   font-style: normal;
@@ -361,7 +367,7 @@ export default {
   padding-bottom: 6px;
   background-color: var(--dl-color-scheme-lightblue);
 }
-.home-text16 {
+.home-text14 {
   color: rgb(0, 0, 0);
   font-size: 56px;
   font-style: normal;
@@ -374,7 +380,7 @@ export default {
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: column;
 }
-.home-text17 {
+.home-text15 {
   color: var(--dl-color-scheme-pink);
   font-size: 56px;
   font-style: normal;
@@ -382,7 +388,7 @@ export default {
   line-height: 1.1;
   margin-left: var(--dl-space-space-fiveunits);
 }
-.home-text18 {
+.home-text16 {
   color: var(--dl-color-scheme-pink);
   font-size: 56px;
   align-self: center;
@@ -400,14 +406,14 @@ export default {
   margin-left: 124px;
   flex-direction: column;
 }
-.home-text21 {
+.home-text19 {
   color: rgb(0, 0, 0);
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.home-text22 {
+.home-text20 {
   color: rgb(0, 0, 0);
   margin-bottom: var(--dl-space-space-twounits);
 }
@@ -449,19 +455,19 @@ export default {
   margin-right: 107px;
   flex-direction: column;
 }
-.home-text26 {
+.home-text24 {
   margin-bottom: 42px;
 }
-.home-text29 {
+.home-text27 {
   color: var(--dl-color-scheme-pink);
 }
-.home-text35 {
+.home-text33 {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.home-text36 {
+.home-text34 {
   margin-bottom: var(--dl-space-space-threeunits);
   text-transform: none;
 }
@@ -490,10 +496,10 @@ export default {
   margin-bottom: var(--dl-space-space-fourunits);
   flex-direction: column;
 }
-.home-text37 {
+.home-text35 {
   text-align: center;
 }
-.home-text39 {
+.home-text37 {
   color: var(--dl-color-scheme-lightblue);
   font-style: normal;
   text-align: center;
@@ -569,7 +575,7 @@ export default {
   height: 24px;
 }
 @media(max-width: 1600px) {
-  .home-text17 {
+  .home-text15 {
     align-self: flex-end;
     margin-left: 0px;
   }
@@ -584,34 +590,26 @@ export default {
     text-transform: uppercase;
     text-decoration: none;
   }
-  .home-text01 {
+  .home-text14 {
     color: var(--dl-color-scheme-black);
-  }
-  .home-text04 {
-    color: var(--dl-color-scheme-black);
-    font-style: normal;
-    font-weight: 500;
   }
   .home-text16 {
-    color: var(--dl-color-scheme-black);
-  }
-  .home-text18 {
     color: var(--dl-color-scheme-black);
     align-self: flex-end;
     font-style: normal;
     font-weight: 300;
     margin-left: 0px;
   }
+  .home-text19 {
+    color: var(--dl-color-scheme-black);
+  }
+  .home-text20 {
+    color: var(--dl-color-scheme-black);
+  }
   .home-text21 {
     color: var(--dl-color-scheme-black);
   }
-  .home-text22 {
-    color: var(--dl-color-scheme-black);
-  }
-  .home-text23 {
-    color: var(--dl-color-scheme-black);
-  }
-  .home-text26 {
+  .home-text24 {
     font-size: 42px;
     font-family: IBM Plex Sans Condensed;
     font-weight: 700;
@@ -619,29 +617,29 @@ export default {
     text-transform: uppercase;
     text-decoration: none;
   }
-  .home-text27 {
+  .home-text25 {
+    color: var(--dl-color-scheme-black);
+  }
+  .home-text30 {
     color: var(--dl-color-scheme-black);
   }
   .home-text32 {
     color: var(--dl-color-scheme-black);
   }
-  .home-text34 {
-    color: var(--dl-color-scheme-black);
-  }
-  .home-text35 {
+  .home-text33 {
     color: var(--dl-color-scheme-black);
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
   }
-  .home-text36 {
+  .home-text34 {
     color: var(--dl-color-scheme-black);
   }
   .home-learn-more1 {
     color: var(--dl-color-scheme-black);
     border-color: var(--dl-color-scheme-black);
   }
-  .home-text37 {
+  .home-text35 {
     color: var(--dl-color-scheme-black);
   }
 }
@@ -686,7 +684,7 @@ export default {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-text13 {
+  .home-text11 {
     margin-left: -24px;
   }
   .home-btns-container1 {
