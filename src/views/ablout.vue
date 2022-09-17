@@ -54,15 +54,15 @@
             <h1 class="ablout-text14">
               <span class="ablout-text15">
                 register for
-                <span v-html="rawo9fw"></span>
+                <span v-html="rawlp29"></span>
               </span>
               <br class="heading2" />
               <span class="heading2">super insightful</span>
-              <span class="heading2"><span v-html="rawp4b9"></span></span>
+              <span class="heading2"><span v-html="rawuqap"></span></span>
               <br class="heading2" />
               <span class="ablout-text20">
                 workshops for
-                <span v-html="rawncd0"></span>
+                <span v-html="rawoenq"></span>
               </span>
               <br class="heading2" />
               <span class="ablout-text22">your team</span>
@@ -135,9 +135,9 @@ export default {
 
   data() {
     return {
-      rawo9fw: ' ',
-      rawp4b9: ' ',
-      rawncd0: ' ',
+      rawlp29: ' ',
+      rawuqap: ' ',
+      rawoenq: ' ',
     }
   },
 

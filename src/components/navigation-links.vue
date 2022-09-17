@@ -66,5 +66,16 @@ export default {
     align-items: flex-start;
     flex-direction: column;
   }
+  .navigation-links-navlink {
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .navigation-links-text {
+    margin-left: 0px;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .navigation-links-text1 {
+    margin-left: 0px;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
 }
 </style>

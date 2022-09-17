@@ -7,9 +7,9 @@
           <div class="home-content-container">
             <h1 class="home-text">
               <span class="home-text01">PURE CLEAN AIR DUCT FOR</span>
-              <span class="heading1"><span v-html="rawevt6"></span></span>
+              <span class="heading1"><span v-html="raw91a1"></span></span>
               <span class="home-text03 heading1">HEALTHY LIFE</span>
-              <span class="heading1"><span v-html="rawsqf9"></span></span>
+              <span class="heading1"><span v-html="rawml4c"></span></span>
             </h1>
             <div class="home-btns-container">
               <button class="home-primary button-primary button-lg button">
@@ -71,7 +71,7 @@
             <div class="home-container6">
               <span class="home-text19">
                 The air ducts and filters
-                <span v-html="rawhegy"></span>
+                <span v-html="rawh8es"></span>
               </span>
               <span class="home-text20 content">
                 must be kept clean. Air ducts and filters accumulate dust, odors
@@ -107,15 +107,15 @@
             <h1 class="home-text24">
               <span class="home-text25">
                 register for
-                <span v-html="rawjcnc"></span>
+                <span v-html="raw8p6o"></span>
               </span>
               <br class="heading2" />
               <span class="home-text27 heading2">super insightful</span>
-              <span class="heading2"><span v-html="raw2znd"></span></span>
+              <span class="heading2"><span v-html="rawsn0r"></span></span>
               <br class="heading2" />
               <span class="home-text30">
                 workshops for
-                <span v-html="rawxmds"></span>
+                <span v-html="raw58s9"></span>
               </span>
               <br class="heading2" />
               <span class="home-text32">your team</span>
@@ -196,12 +196,12 @@ export default {
 
   data() {
     return {
-      rawevt6: ' ',
-      rawsqf9: ' ',
-      rawhegy: ' ',
-      rawjcnc: ' ',
-      raw2znd: ' ',
-      rawxmds: ' ',
+      raw91a1: ' ',
+      rawml4c: ' ',
+      rawh8es: ' ',
+      raw8p6o: ' ',
+      rawsn0r: ' ',
+      raw58s9: ' ',
     }
   },
 
