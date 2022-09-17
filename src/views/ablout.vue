@@ -3,26 +3,24 @@
     <app-navigation></app-navigation>
     <main class="ablout-main">
       <div class="ablout-hero section-container">
-        <div class="ablout-blue-background"></div>
+        <div class="ablout-container1">
+          <span class="ablout-text heading1">about</span>
+        </div>
       </div>
       <div class="ablout-location">
-        <img
-          alt="image"
-          src="https://images.unsplash.com/photo-1564347288827-3e4293543e07?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE2fHxiZXJsaW58ZW58MHx8fHwxNjQzNzEzNjQ5&amp;ixlib=rb-1.2.1&amp;w=1500"
-          class="ablout-image"
-        />
+        <div class="ablout-container2"></div>
         <div class="ablout-content-container section-container">
-          <div class="ablout-container1">
-            <span class="ablout-text">berlin, germany</span>
-            <span class="ablout-text01">7-8 MARCH 2023</span>
-            <div class="ablout-container2">
-              <span class="ablout-text02"><span>— mob-x</span></span>
-              <span class="ablout-text04"><span>conference</span></span>
-              <span class="ablout-text06"><span>center</span></span>
+          <div class="ablout-container3">
+            <span class="ablout-text01">berlin, germany</span>
+            <span class="ablout-text02">7-8 MARCH 2023</span>
+            <div class="ablout-container4">
+              <span class="ablout-text03"><span>— mob-x</span></span>
+              <span class="ablout-text05"><span>conference</span></span>
+              <span class="ablout-text07"><span>center</span></span>
             </div>
-            <div class="ablout-container3">
-              <span class="ablout-text08">beautiful, vibrant berlin</span>
-              <span class="ablout-text09">
+            <div class="ablout-container5">
+              <span class="ablout-text09">beautiful, vibrant berlin</span>
+              <span class="ablout-text10">
                 <span>
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                   amet sint. Velit officia consequat duis enim velit mollit.
@@ -52,27 +50,27 @@
       </div>
       <div class="ablout-workshops">
         <div class="ablout-content-container1">
-          <div class="ablout-container4">
-            <h1 class="ablout-text13 heading2">
+          <div class="ablout-container6">
+            <h1 class="ablout-text14 heading2">
               <span>
                 register for
-                <span v-html="rawz7x9"></span>
+                <span v-html="rawkuei"></span>
               </span>
               <br />
-              <span class="ablout-text16">super insightful</span>
-              <span><span v-html="rawnidd"></span></span>
+              <span class="ablout-text17">super insightful</span>
+              <span><span v-html="rawc8q2"></span></span>
               <br />
               <span>
                 workshops for
-                <span v-html="rawvy5w"></span>
+                <span v-html="rawotih"></span>
               </span>
               <br />
               <span>your team</span>
             </h1>
-            <span class="ablout-text22">
+            <span class="ablout-text23">
               get early discounts and group discounts
             </span>
-            <span class="ablout-text23">
+            <span class="ablout-text24">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
               sint. Velit officia consequat duis enim velit mollit. Exercitation
               veniam consequat sunt nostrud amet.
@@ -80,11 +78,7 @@
             <button class="button button-md button-outline">learn more</button>
           </div>
         </div>
-        <img
-          alt="image"
-          src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxidXNpbmVzc3xlbnwwfHx8fDE2NDM3MzQ3MjI&amp;ixlib=rb-1.2.1&amp;w=1500"
-          class="ablout-image1"
-        />
+        <div class="ablout-container7"></div>
       </div>
       <div class="ablout-previous-events section-container">
         <div data-type="slider" class="ablout-slider">
@@ -139,9 +133,9 @@ export default {
 
   data() {
     return {
-      rawz7x9: ' ',
-      rawnidd: ' ',
-      rawvy5w: ' ',
+      rawkuei: ' ',
+      rawc8q2: ' ',
+      rawotih: ' ',
     }
   },
 
@@ -176,18 +170,22 @@ export default {
 }
 .ablout-hero {
   position: relative;
-  padding-top: 128px;
+  align-self: center;
+  margin-top: var(--dl-space-space-sixunits);
+  padding-top: var(--dl-space-space-sixunits);
+  background-color: var(--dl-color-scheme-darkgray);
 }
-.ablout-blue-background {
-  top: 0px;
-  right: 0px;
-  width: 47%;
+.ablout-container1 {
+  flex: 0 0 auto;
+  width: 100%;
   height: 100px;
-  position: absolute;
-  min-height: 80%;
-  background-size: cover;
-  background-image: url("/playground_assets/blue-background-1500w.png");
-  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-start;
+}
+.ablout-text {
+  color: var(--dl-color-scheme-lightblue);
+  width: 100%;
+  text-align: center;
 }
 .ablout-location {
   width: 100%;
@@ -195,10 +193,14 @@ export default {
   align-items: stretch;
   flex-direction: row;
 }
-.ablout-image {
-  width: 55%;
-  max-height: 950px;
-  object-fit: cover;
+.ablout-container2 {
+  flex: 0 0 auto;
+  width: 50%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 .ablout-content-container {
   flex: 1;
@@ -207,16 +209,15 @@ export default {
   padding-top: 100px;
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: row;
-  background-color: var(--dl-color-scheme-black);
 }
-.ablout-container1 {
+.ablout-container3 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.ablout-text {
+.ablout-text01 {
   color: var(--dl-color-scheme-white);
   font-size: 56px;
   font-style: normal;
@@ -230,20 +231,20 @@ export default {
   padding-bottom: 6px;
   background-color: var(--dl-color-scheme-lightblue);
 }
-.ablout-text01 {
-  color: var(--dl-color-scheme-white);
+.ablout-text02 {
+  color: var(--dl-color-scheme-lightblue);
   font-size: 56px;
   font-style: normal;
   font-weight: 300;
   line-height: 1.1;
 }
-.ablout-container2 {
+.ablout-container4 {
   display: flex;
   align-items: flex-end;
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: column;
 }
-.ablout-text02 {
+.ablout-text03 {
   color: var(--dl-color-scheme-pink);
   font-size: 56px;
   font-style: normal;
@@ -251,7 +252,7 @@ export default {
   line-height: 1.1;
   margin-left: var(--dl-space-space-fiveunits);
 }
-.ablout-text04 {
+.ablout-text05 {
   color: var(--dl-color-scheme-pink);
   font-size: 56px;
   font-style: normal;
@@ -259,7 +260,7 @@ export default {
   line-height: 1.1;
   margin-left: -36px;
 }
-.ablout-text06 {
+.ablout-text07 {
   color: var(--dl-color-scheme-pink);
   font-size: 56px;
   font-style: normal;
@@ -267,7 +268,7 @@ export default {
   line-height: 1.1;
   margin-left: var(--dl-space-space-fiveunits);
 }
-.ablout-container3 {
+.ablout-container5 {
   flex: 1;
   width: 100%;
   display: flex;
@@ -276,15 +277,15 @@ export default {
   margin-left: 124px;
   flex-direction: column;
 }
-.ablout-text08 {
-  color: var(--dl-color-scheme-white);
+.ablout-text09 {
+  color: var(--dl-color-scheme-lightblue);
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.ablout-text09 {
-  color: var(--dl-color-scheme-white);
+.ablout-text10 {
+  color: var(--dl-color-scheme-lightblue);
   margin-bottom: var(--dl-space-space-twounits);
   text-transform: none;
 }
@@ -294,9 +295,9 @@ export default {
   align-items: flex-start;
 }
 .ablout-learn-more {
-  color: var(--dl-color-scheme-white);
+  color: var(--dl-color-scheme-lightblue);
   transition: 0.3s;
-  border-color: var(--dl-color-scheme-white);
+  border-color: var(--dl-color-scheme-lightblue);
 }
 .ablout-learn-more:hover {
   border-color: var(--dl-color-scheme-pink);
@@ -315,7 +316,7 @@ export default {
   justify-content: center;
   background-color: rgba(144, 149, 167, 0.08);
 }
-.ablout-container4 {
+.ablout-container6 {
   flex: 0 0 auto;
   display: flex;
   max-width: 366px;
@@ -323,27 +324,30 @@ export default {
   margin-right: 107px;
   flex-direction: column;
 }
-.ablout-text13 {
+.ablout-text14 {
   margin-bottom: 42px;
 }
-.ablout-text16 {
+.ablout-text17 {
   color: var(--dl-color-scheme-pink);
 }
-.ablout-text22 {
+.ablout-text23 {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.ablout-text23 {
+.ablout-text24 {
   margin-bottom: var(--dl-space-space-threeunits);
   text-transform: none;
 }
-.ablout-image1 {
-  width: 55%;
-  min-height: 880px;
-  object-fit: cover;
-  object-position: bottom;
+.ablout-container7 {
+  flex: 0 0 auto;
+  width: 50%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 .ablout-previous-events {
   display: flex;
@@ -421,55 +425,60 @@ export default {
   height: 24px;
 }
 @media(max-width: 1200px) {
-  .ablout-blue-background {
-    height: 50px;
+  .ablout-container2 {
+    width: 50%;
+    height: auto;
+  }
+  .ablout-content-container {
+    background-color: var(--dl-color-scheme-darkgray);
+  }
+  .ablout-text02 {
+    color: var(--dl-color-scheme-lightblue);
+  }
+  .ablout-text09 {
+    color: var(--dl-color-scheme-lightblue);
+  }
+  .ablout-text10 {
+    color: var(--dl-color-scheme-lightblue);
+  }
+  .ablout-learn-more {
+    color: var(--dl-color-scheme-lightblue);
+    border-color: var(--dl-color-scheme-lightblue);
+  }
+  .ablout-container7 {
+    width: 50%;
+    height: auto;
   }
 }
 @media(max-width: 991px) {
-  .ablout-blue-background {
-    top: auto;
-    width: 100%;
-    bottom: 0px;
-    min-height: 40%;
-  }
   .ablout-location {
     flex-direction: column;
-  }
-  .ablout-image {
-    width: 100%;
   }
   .ablout-content-container {
     padding-top: 0px;
     padding-left: var(--dl-space-space-threeunits);
   }
-  .ablout-container1 {
+  .ablout-container3 {
     margin-top: -100px;
     align-items: center;
   }
-  .ablout-container3 {
+  .ablout-container5 {
     max-width: 100%;
     margin-left: 0px;
   }
-  .ablout-container4 {
+  .ablout-container6 {
     margin-right: var(--dl-space-space-unit);
-  }
-  .ablout-image1 {
-    width: 50%;
-    object-position: left;
   }
   .ablout-slider-controls {
     width: calc(75% + 48px);
   }
 }
 @media(max-width: 767px) {
-  .ablout-image {
-    max-height: 100%;
-  }
   .ablout-content-container {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .ablout-text {
+  .ablout-text01 {
     margin-left: -24px;
   }
   .ablout-btns-container {
@@ -481,16 +490,13 @@ export default {
     flex-direction: column-reverse;
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .ablout-container4 {
+  .ablout-container6 {
     max-width: 100%;
     padding-top: var(--dl-space-space-twounits);
     margin-right: 0px;
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-twounits);
-  }
-  .ablout-image1 {
-    width: 100%;
   }
   .ablout-previous-events {
     padding-bottom: var(--dl-space-space-sixunits);

@@ -33,7 +33,7 @@ export default {
   color: var(--dl-color-scheme-white);
 }
 .slide-root-class-name {
-  background-color: #ff9b1d;
+  background-color: var(--dl-color-scheme-pink);
 }
 .slide-root-class-name1 {
   background-color: #15bd19;
@@ -42,7 +42,7 @@ export default {
   background-color: var(--dl-color-scheme-pink);
 }
 .slide-root-class-name3 {
-  background-color: var(--dl-color-scheme-lightblue);
+  background-color: var(--dl-color-scheme-darkgray);
 }
 .slide-root-class-name4 {
   background-color: var(--dl-color-scheme-darkblue);
@@ -51,15 +51,23 @@ export default {
   background-color: var(--dl-color-scheme-darkblue);
 }
 .slide-root-class-name6 {
-  background-color: #15bd19;
+  background-color: var(--dl-color-scheme-darkgray);
 }
 .slide-root-class-name7 {
-  background-color: #ff9b1d;
+  background-color: var(--dl-color-scheme-lightblue);
 }
 .slide-root-class-name8 {
-  background-color: var(--dl-color-scheme-lightblue);
+  background-color: var(--dl-color-scheme-darkgray);
 }
 .slide-root-class-name9 {
   background-color: var(--dl-color-scheme-pink);
+}
+@media(max-width: 1200px) {
+  .slide-root-class-name7 {
+    background-color: var(--dl-color-scheme-lightblue);
+  }
+  .slide-root-class-name8 {
+    background-color: var(--dl-color-scheme-darkgray);
+  }
 }
 </style>

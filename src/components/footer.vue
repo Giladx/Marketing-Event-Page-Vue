@@ -24,11 +24,13 @@
       </div>
       <div class="footer-bottom-container">
         <div class="footer-left-side">
-          <img
-            alt="image"
-            src="/playground_assets/logo-white-1200w.png"
-            class="footer-image"
-          />
+          <router-link to="/" class="footer-navlink">
+            <img
+              alt="image"
+              src="/playground_assets/logo-651.svg"
+              class="footer-image"
+            />
+          </router-link>
           <span class="footer-text06">
             Register for the most insightful marketing conference of Europe. Over
             30 speakers, 2 days full of digital marketing and social media news,
@@ -70,11 +72,11 @@
         <div class="footer-links">
           <div class="footer-container1">
             <span class="footer-text08">Product</span>
-            <span class="footer-link">ABOUT</span>
-            <span class="footer-link">Agenda</span>
-            <span class="footer-link">Register</span>
-            <span class="footer-link">Speakers</span>
-            <span class="footer-link">Location</span>
+            <span class="footer-text09 footer-link">ABOUT</span>
+            <span class="footer-text10 footer-link">Agenda</span>
+            <span class="footer-text11 footer-link">Register</span>
+            <span class="footer-text12 footer-link">Speakers</span>
+            <span class="footer-text13 footer-link">Location</span>
             <span class="footer-text14 footer-link">Workshops</span>
           </div>
           <div class="footer-container2">
@@ -83,10 +85,10 @@
               <br />
               <span></span>
             </span>
-            <span class="footer-link">contact us</span>
-            <span class="footer-link">Sponsorship</span>
-            <span class="footer-link">become a speaker</span>
-            <span class="footer-link">partnerships</span>
+            <span class="footer-text18 footer-link">contact us</span>
+            <span class="footer-text19 footer-link">Sponsorship</span>
+            <span class="footer-text20 footer-link">become a speaker</span>
+            <span class="footer-text21 footer-link">partnerships</span>
             <span class="footer-text22 footer-link">sales</span>
           </div>
         </div>
@@ -96,9 +98,9 @@
           <span>
             <span>
               © All rights reserved
-              <span v-html="raw11do"></span>
+              <span v-html="rawzx97"></span>
             </span>
-            <span><span v-html="rawlfdl"></span></span>
+            <span><span v-html="rawj6fp"></span></span>
           </span>
           <a
             href="https://www.teleporthq.io"
@@ -110,9 +112,9 @@
           <span>
             <span>
               Powered by
-              <span v-html="raw0psr"></span>
+              <span v-html="rawnq2k"></span>
             </span>
-            <span><span v-html="rawx522"></span></span>
+            <span><span v-html="rawqgfs"></span></span>
           </span>
           <a
             href="https://www.vercel.com"
@@ -124,9 +126,9 @@
           <span>
             <span>
               . Image source:
-              <span v-html="raw5gsr"></span>
+              <span v-html="rawjyf5"></span>
             </span>
-            <span><span v-html="rawe6ml"></span></span>
+            <span><span v-html="rawni4d"></span></span>
           </span>
           <a
             href="https://www.unsplash.com"
@@ -152,12 +154,12 @@ export default {
 
   data() {
     return {
-      raw11do: ' ',
-      rawlfdl: ' ',
-      raw0psr: ' ',
-      rawx522: ' ',
-      raw5gsr: ' ',
-      rawe6ml: ' ',
+      rawzx97: ' ',
+      rawj6fp: ' ',
+      rawnq2k: ' ',
+      rawqgfs: ' ',
+      rawjyf5: ' ',
+      rawni4d: ' ',
     }
   },
 }
@@ -165,7 +167,7 @@ export default {
 
 <style scoped>
 .footer-footer {
-  background-color: var(--dl-color-scheme-black);
+  background-color: var(--dl-color-scheme-darkgray);
 }
 .footer-max-width {
   align-items: flex-start;
@@ -185,7 +187,7 @@ export default {
   flex-direction: column;
   padding-bottom: 70px;
   background-size: cover;
-  background-image: url("/playground_assets/group%2029-1200w.png");
+  background-color: var(--dl-color-scheme-lightblue);
 }
 .footer-text {
   color: var(--dl-color-scheme-white);
@@ -234,11 +236,16 @@ export default {
   align-items: flex-start;
   flex-direction: column;
 }
+.footer-navlink {
+  display: contents;
+}
 .footer-image {
+  width: 150px;
   margin-bottom: var(--dl-space-space-twounits);
+  text-decoration: none;
 }
 .footer-text06 {
-  color: var(--dl-color-scheme-white);
+  color: var(--dl-color-scheme-lightblue);
   max-width: 350px;
   margin-bottom: 60px;
   text-transform: none;
@@ -250,7 +257,7 @@ export default {
   flex-direction: column;
 }
 .footer-text07 {
-  color: var(--dl-color-scheme-white);
+  color: var(--dl-color-scheme-lightblue);
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -264,7 +271,7 @@ export default {
   flex-direction: row;
 }
 .footer-icon {
-  fill: var(--dl-color-scheme-white);
+  fill: var(--dl-color-scheme-lightblue);
   width: 24px;
   height: 24px;
   transition: 0.3s;
@@ -275,7 +282,7 @@ export default {
   cursor: pointer;
 }
 .footer-icon04 {
-  fill: var(--dl-color-scheme-white);
+  fill: var(--dl-color-scheme-lightblue);
   width: 24px;
   height: 24px;
   transition: 0.3s;
@@ -286,7 +293,7 @@ export default {
   cursor: pointer;
 }
 .footer-icon08 {
-  fill: var(--dl-color-scheme-white);
+  fill: var(--dl-color-scheme-lightblue);
   width: 24px;
   height: 24px;
   transition: 0.3s;
@@ -297,7 +304,7 @@ export default {
   cursor: pointer;
 }
 .footer-icon10 {
-  fill: var(--dl-color-scheme-white);
+  fill: var(--dl-color-scheme-lightblue);
   width: 24px;
   height: 24px;
   transition: 0.3s;
@@ -321,14 +328,30 @@ export default {
   flex-direction: column;
 }
 .footer-text08 {
-  color: var(--dl-color-scheme-white);
+  color: var(--dl-color-scheme-lightblue);
   cursor: default;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   margin-bottom: var(--dl-space-space-threeunits);
 }
+.footer-text09 {
+  color: var(--dl-color-scheme-lightblue);
+}
+.footer-text10 {
+  color: var(--dl-color-scheme-lightblue);
+}
+.footer-text11 {
+  color: var(--dl-color-scheme-lightblue);
+}
+.footer-text12 {
+  color: var(--dl-color-scheme-lightblue);
+}
+.footer-text13 {
+  color: var(--dl-color-scheme-lightblue);
+}
 .footer-text14 {
+  color: var(--dl-color-scheme-lightblue);
   margin-bottom: 0px;
 }
 .footer-container2 {
@@ -339,14 +362,27 @@ export default {
   flex-direction: column;
 }
 .footer-text15 {
-  color: var(--dl-color-scheme-white);
+  color: var(--dl-color-scheme-lightblue);
   cursor: default;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   margin-bottom: var(--dl-space-space-threeunits);
 }
+.footer-text18 {
+  color: var(--dl-color-scheme-lightblue);
+}
+.footer-text19 {
+  color: var(--dl-color-scheme-lightblue);
+}
+.footer-text20 {
+  color: var(--dl-color-scheme-lightblue);
+}
+.footer-text21 {
+  color: var(--dl-color-scheme-lightblue);
+}
 .footer-text22 {
+  color: var(--dl-color-scheme-lightblue);
   margin-bottom: 0px;
 }
 .footer-copyright {
@@ -359,7 +395,7 @@ export default {
   padding-bottom: var(--dl-space-space-twounits);
 }
 .footer-text23 {
-  color: var(--dl-color-scheme-white80);
+  color: var(--dl-color-scheme-lightblue);
   font-size: 14px;
   text-transform: none;
 }
@@ -374,6 +410,77 @@ export default {
 }
 
 
+@media(max-width: 1200px) {
+  .footer-footer {
+    background-color: var(--dl-color-scheme-darkgray);
+  }
+  .footer-banner {
+    background-color: var(--dl-color-scheme-lightblue);
+  }
+  .footer-image {
+    width: 150px;
+  }
+  .footer-text06 {
+    color: var(--dl-color-scheme-lightblue);
+  }
+  .footer-text07 {
+    color: var(--dl-color-scheme-lightblue);
+  }
+  .footer-icon {
+    fill: var(--dl-color-scheme-lightblue);
+  }
+  .footer-icon04 {
+    fill: var(--dl-color-scheme-lightblue);
+  }
+  .footer-icon08 {
+    fill: var(--dl-color-scheme-lightblue);
+  }
+  .footer-icon10 {
+    fill: var(--dl-color-scheme-lightblue);
+  }
+  .footer-text08 {
+    color: var(--dl-color-scheme-lightblue);
+  }
+  .footer-text09 {
+    color: var(--dl-color-scheme-lightblue);
+  }
+  .footer-text10 {
+    color: var(--dl-color-scheme-lightblue);
+  }
+  .footer-text11 {
+    color: var(--dl-color-scheme-lightblue);
+  }
+  .footer-text12 {
+    color: var(--dl-color-scheme-lightblue);
+  }
+  .footer-text13 {
+    color: var(--dl-color-scheme-lightblue);
+  }
+  .footer-text14 {
+    color: var(--dl-color-scheme-lightblue);
+  }
+  .footer-text15 {
+    color: var(--dl-color-scheme-lightblue);
+  }
+  .footer-text18 {
+    color: var(--dl-color-scheme-lightblue);
+  }
+  .footer-text19 {
+    color: var(--dl-color-scheme-lightblue);
+  }
+  .footer-text20 {
+    color: var(--dl-color-scheme-lightblue);
+  }
+  .footer-text21 {
+    color: var(--dl-color-scheme-lightblue);
+  }
+  .footer-text22 {
+    color: var(--dl-color-scheme-lightblue);
+  }
+  .footer-text23 {
+    color: var(--dl-color-scheme-lightblue);
+  }
+}
 @media(max-width: 991px) {
   .footer-bottom-container {
     flex-direction: column-reverse;

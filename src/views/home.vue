@@ -7,25 +7,29 @@
           <div class="home-content-container">
             <h1 class="home-text heading1">
               <span>
-                THE MOST INSIGHTFUL
-                <span v-html="rawhy6c"></span>
+                PURE CLEAN AIR DUCT FOR
+                <span v-html="rawxveo"></span>
               </span>
-              <span class="home-text02">MARKETING CONFERENCE</span>
-              <br />
-              <span>IN EUROPE</span>
-              <span></span>
+              <span class="home-text02">HEALTHY LIFE</span>
+              <span class="heading1"><span v-html="rawu8vt"></span></span>
             </h1>
-            <span class="home-text05">
+            <span class="home-text04">
               <span>GET YOUR TICKETS AT A HALF PRICE UNTIL 10.10.2022.</span>
               <br />
               <span>HURRY UP, LIMITED NUMBERS AVAILABLE.</span>
             </span>
             <div class="home-btns-container">
               <button class="home-primary button-primary button-lg button">
-                register now
+                <span>
+                  <span>CONTACT US</span>
+                  <br />
+                </span>
               </button>
               <button class="button button-outline button-lg-border">
-                learn more
+                <span>
+                  <span>order service</span>
+                  <br />
+                </span>
               </button>
             </div>
           </div>
@@ -57,33 +61,43 @@
         <div class="home-container3"></div>
         <div class="home-content-container1 section-container">
           <div class="home-container4">
-            <span class="home-text08">berlin, germany</span>
-            <span class="home-text09">7-8 MARCH 2023</span>
+            <span class="home-text13">
+              <span>AIR DUCT CLEANING</span>
+              <br />
+            </span>
+            <span class="home-text16">Air duct cleaning is essential,</span>
             <div class="home-container5">
-              <span class="home-text10"><span>— mob-x</span></span>
-              <span class="home-text12"><span>conference</span></span>
-              <span class="home-text14"><span>center</span></span>
+              <span class="home-text17">
+                in order to take full advantage of the
+              </span>
+              <span class="home-text18">
+                <span>cooling &amp; heating system.</span>
+                <br />
+              </span>
             </div>
             <div class="home-container6">
-              <span class="home-text16">beautiful, vibrant berlin</span>
-              <span class="home-text17">
-                <span>
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
-                  Exercitation veniam consequat sunt nostrud amet.
-                </span>
-                <br />
-                <span></span>
-                <br />
-                <span>
-                  Lorem Ipsum, Velit officia consequat duis enim velit mollit.
-                  Exercitation veniam consequat sunt nostrud amet.
-                </span>
+              <span class="home-text21">
+                The air ducts and filters
+                <span v-html="rawbk5j"></span>
+              </span>
+              <span class="home-text22 content">
+                must be kept clean. Air ducts and filters accumulate dust, odors
+                and even dust mites which can trigger allergies. How can you enjoy
+                a cool interior if it’s causing you to sneeze? When the air ducts
+                or filters are dirty the system works inefficiently and uses extra
+                electricity. After our service, you can breathe easy and enjoy the
+                cool air.
               </span>
               <div class="home-btns-container1">
-                <button class="button-secondary button button-md">
-                  register
-                </button>
+                <a
+                  href="tel:+18885031722"
+                  class="home-register button-secondary button button-md"
+                >
+                  <span>
+                    <span>call now</span>
+                    <br />
+                  </span>
+                </a>
                 <button
                   class="home-learn-more button button-outline button-md-border"
                 >
@@ -94,121 +108,29 @@
           </div>
         </div>
       </div>
-      <div class="home-agenda section-container">
-        <div class="home-max-width2 max-content-container">
-          <div class="home-heading-container">
-            <h1 class="home-text21 heading2"><span>key events agenda</span></h1>
-            <span class="home-text23">more announcements are coming soon</span>
-          </div>
-          <div class="home-events-container">
-            <div class="home-column">
-              <div class="home-column-header">
-                <span class="home-text24"><span>tuesday - 7.03</span></span>
-                <div class="home-line"></div>
-              </div>
-              <event-card></event-card>
-              <event-card
-                title="tik tok or what?"
-                image_src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHBlb3BsZXxlbnwwfHx8fDE2NDM3MDU1MTE&amp;ixlib=rb-1.2.1&amp;h=300"
-              ></event-card>
-              <event-card
-                title="sales + marketing duo"
-                image_src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fHBlb3BsZXxlbnwwfHx8fDE2NDM3MDU1MTE&amp;ixlib=rb-1.2.1&amp;h=300"
-              ></event-card>
-              <event-card
-                title="best practices for more
-  data-driven results"
-                image_src="https://images.unsplash.com/photo-1537511446984-935f663eb1f4?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI5fHxwZW9wbGV8ZW58MHx8fHwxNjQzNzA1NTEx&amp;ixlib=rb-1.2.1&amp;h=300"
-              ></event-card>
-            </div>
-            <div class="home-column1">
-              <div class="home-column-header1">
-                <span class="home-text26"><span>wednesday - 8.03</span></span>
-                <div class="home-line1"></div>
-              </div>
-              <event-card
-                title="digital marketing strategies"
-                image_src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExfHxwZW9wbGV8ZW58MHx8fHwxNjQzNzA1NTEx&amp;ixlib=rb-1.2.1&amp;h=300"
-              ></event-card>
-              <event-card
-                title="a new era of social media"
-                image_src="https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0N3x8cGVvcGxlfGVufDB8fHx8MTY0MzcwODY5MQ&amp;ixlib=rb-1.2.1&amp;h=300"
-              ></event-card>
-              <event-card
-                title="growing a remote team"
-                image_src="https://images.unsplash.com/photo-1589156280159-27698a70f29e?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE2OHx8cGVvcGxlfGVufDB8fHx8MTY0MzcwODY5MQ&amp;ixlib=rb-1.2.1&amp;h=300"
-              ></event-card>
-              <event-card
-                title="beyond the metaverse"
-                image_src="https://images.unsplash.com/photo-1558222218-b7b54eede3f3?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEwNHx8cGVvcGxlfGVufDB8fHx8MTY0MzcwODY4MQ&amp;ixlib=rb-1.2.1&amp;h=300"
-              ></event-card>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="home-numbers-banner section-container">
-        <div class="home-container7 max-content-container">
-          <div class="home-heading-container1">
-            <span class="home-text28">
-              Our 12-year conference history in sharing digital marketing insights
-            </span>
-            <h1 class="home-text29 heading2">
-              <span>market1 SUMMIT IN NUMBERS</span>
-            </h1>
-          </div>
-          <div class="home-numbers-container">
-            <numbers-card></numbers-card>
-            <numbers-card
-              text="years"
-              number="12"
-              image_src="/playground_assets/interface%20time%20reset-200h.png"
-            ></numbers-card>
-            <numbers-card
-              text="total events"
-              number="64"
-              image_src="/playground_assets/interface%20calendar%20favorite-200h.png"
-            ></numbers-card>
-            <numbers-card
-              text="companies"
-              number="15,070"
-              image_src="/playground_assets/shopping%20bag%20suit%20case-200h.png"
-            ></numbers-card>
-            <numbers-card
-              text="cities"
-              number="14"
-              image_src="/playground_assets/travel%20map%20location%20pin-200h.png"
-            ></numbers-card>
-            <numbers-card
-              text="speakers"
-              number="1,071"
-              image_src="/playground_assets/computer%20voice%20mail-200h.png"
-            ></numbers-card>
-          </div>
-        </div>
-      </div>
       <div class="home-workshops">
         <div class="home-content-container2">
-          <div class="home-container8">
-            <h1 class="home-text31 heading2">
+          <div class="home-container7">
+            <h1 class="home-text26 heading2">
               <span>
                 register for
-                <span v-html="rawqgvf"></span>
+                <span v-html="rawwby3"></span>
               </span>
               <br />
-              <span class="home-text34">super insightful</span>
-              <span><span v-html="rawljbz"></span></span>
+              <span class="home-text29">super insightful</span>
+              <span><span v-html="raw3n5t"></span></span>
               <br />
               <span>
                 workshops for
-                <span v-html="rawza4p"></span>
+                <span v-html="rawknvm"></span>
               </span>
               <br />
               <span>your team</span>
             </h1>
-            <span class="home-text40">
+            <span class="home-text35">
               get early discounts and group discounts
             </span>
-            <span class="home-text41">
+            <span class="home-text36">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
               sint. Velit officia consequat duis enim velit mollit. Exercitation
               veniam consequat sunt nostrud amet.
@@ -216,17 +138,13 @@
             <button class="button button-md button-outline">learn more</button>
           </div>
         </div>
-        <img
-          alt="image"
-          src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxidXNpbmVzc3xlbnwwfHx8fDE2NDM3MzQ3MjI&amp;ixlib=rb-1.2.1&amp;w=1500"
-          class="home-image3"
-        />
+        <div class="home-container8"></div>
       </div>
       <div class="home-previous-events section-container">
-        <div class="home-max-width3 max-content-container">
-          <div class="home-heading-container2">
-            <h1 class="home-text42 heading2"><span>previous events</span></h1>
-            <span class="home-text44">
+        <div class="home-max-width2 max-content-container">
+          <div class="home-heading-container">
+            <h1 class="home-text37 heading2"><span>previous events</span></h1>
+            <span class="home-text39">
               Take a tour of our previous conferences
             </span>
           </div>
@@ -270,8 +188,6 @@
 
 <script>
 import AppNavigation from '../components/navigation'
-import EventCard from '../components/event-card'
-import NumbersCard from '../components/numbers-card'
 import AppSlide from '../components/slide'
 import AppFooter from '../components/footer'
 
@@ -279,18 +195,18 @@ export default {
   name: 'Home',
   components: {
     AppNavigation,
-    EventCard,
-    NumbersCard,
     AppSlide,
     AppFooter,
   },
 
   data() {
     return {
-      rawhy6c: ' ',
-      rawqgvf: ' ',
-      rawljbz: ' ',
-      rawza4p: ' ',
+      rawxveo: ' ',
+      rawu8vt: ' ',
+      rawbk5j: ' ',
+      rawwby3: ' ',
+      raw3n5t: ' ',
+      rawknvm: ' ',
     }
   },
 
@@ -348,7 +264,7 @@ export default {
 .home-text02 {
   color: var(--dl-color-scheme-pink);
 }
-.home-text05 {
+.home-text04 {
   font-style: normal;
   font-weight: 500;
   margin-bottom: 42px;
@@ -430,7 +346,7 @@ export default {
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text08 {
+.home-text13 {
   color: var(--dl-color-scheme-white);
   font-size: 56px;
   font-style: normal;
@@ -444,8 +360,8 @@ export default {
   padding-bottom: 6px;
   background-color: var(--dl-color-scheme-lightblue);
 }
-.home-text09 {
-  color: #000000;
+.home-text16 {
+  color: rgb(0, 0, 0);
   font-size: 56px;
   font-style: normal;
   font-weight: 300;
@@ -457,7 +373,7 @@ export default {
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: column;
 }
-.home-text10 {
+.home-text17 {
   color: var(--dl-color-scheme-pink);
   font-size: 56px;
   font-style: normal;
@@ -465,21 +381,14 @@ export default {
   line-height: 1.1;
   margin-left: var(--dl-space-space-fiveunits);
 }
-.home-text12 {
+.home-text18 {
   color: var(--dl-color-scheme-pink);
   font-size: 56px;
+  align-self: center;
   font-style: normal;
   font-weight: 600;
   line-height: 1.1;
   margin-left: -36px;
-}
-.home-text14 {
-  color: var(--dl-color-scheme-pink);
-  font-size: 56px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 1.1;
-  margin-left: var(--dl-space-space-fiveunits);
 }
 .home-container6 {
   flex: 1;
@@ -490,22 +399,24 @@ export default {
   margin-left: 124px;
   flex-direction: column;
 }
-.home-text16 {
-  color: #000000;
+.home-text21 {
+  color: rgb(0, 0, 0);
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.home-text17 {
-  color: #000000;
+.home-text22 {
+  color: rgb(0, 0, 0);
   margin-bottom: var(--dl-space-space-twounits);
-  text-transform: none;
 }
 .home-btns-container1 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
+}
+.home-register {
+  text-decoration: none;
 }
 .home-learn-more {
   color: #000000;
@@ -514,125 +425,6 @@ export default {
 }
 .home-learn-more:hover {
   border-color: var(--dl-color-scheme-pink);
-}
-.home-agenda {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 100px;
-}
-.home-max-width2 {
-  flex-direction: column;
-}
-.home-heading-container {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
-  margin-bottom: var(--dl-space-space-fourunits);
-  flex-direction: column;
-}
-.home-text21 {
-  text-align: center;
-}
-.home-text23 {
-  color: var(--dl-color-scheme-darkgray);
-  font-style: normal;
-  text-align: center;
-  font-weight: 500;
-}
-.home-events-container {
-  width: 100%;
-  display: grid;
-  grid-row-gap: var(--dl-space-space-fourunits);
-  grid-column-gap: 30px;
-  grid-template-columns: 1fr 1fr;
-}
-.home-column {
-  width: 100%;
-  display: grid;
-  grid-gap: 30px;
-  grid-template-columns: 1fr;
-}
-.home-column-header {
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-.home-text24 {
-  color: var(--dl-color-scheme-darkgray);
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.1;
-  margin-right: 21px;
-}
-.home-line {
-  flex: 1;
-  height: 1px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  background-color: rgba(144, 149, 167, 0.2);
-}
-.home-column1 {
-  width: 100%;
-  display: grid;
-  grid-gap: 30px;
-  grid-template-columns: 1fr;
-}
-.home-column-header1 {
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-.home-text26 {
-  color: var(--dl-color-scheme-darkgray);
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.1;
-  margin-right: 21px;
-}
-.home-line1 {
-  flex: 1;
-  height: 1px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  background-color: rgba(144, 149, 167, 0.2);
-}
-.home-numbers-banner {
-  display: flex;
-  padding-top: var(--dl-space-space-fiveunits);
-  flex-direction: column;
-  background-size: cover;
-  background-image: url("/playground_assets/group%2029-1500w.png");
-}
-.home-container7 {
-  flex-direction: column;
-}
-.home-heading-container1 {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
-  margin-bottom: var(--dl-space-space-fourunits);
-  flex-direction: column;
-}
-.home-text28 {
-  color: var(--dl-color-scheme-white);
-  font-style: normal;
-  text-align: center;
-  font-weight: 500;
-}
-.home-text29 {
-  color: var(--dl-color-scheme-white);
-  text-align: center;
-}
-.home-numbers-container {
-  width: 100%;
-  display: grid;
-  grid-row-gap: var(--dl-space-space-fourunits);
-  grid-column-gap: 30px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .home-workshops {
   flex: 1;
@@ -648,7 +440,7 @@ export default {
   justify-content: center;
   background-color: rgba(144, 149, 167, 0.08);
 }
-.home-container8 {
+.home-container7 {
   flex: 0 0 auto;
   display: flex;
   max-width: 366px;
@@ -656,27 +448,30 @@ export default {
   margin-right: 107px;
   flex-direction: column;
 }
-.home-text31 {
+.home-text26 {
   margin-bottom: 42px;
 }
-.home-text34 {
+.home-text29 {
   color: var(--dl-color-scheme-pink);
 }
-.home-text40 {
+.home-text35 {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.home-text41 {
+.home-text36 {
   margin-bottom: var(--dl-space-space-threeunits);
   text-transform: none;
 }
-.home-image3 {
-  width: 55%;
-  min-height: 880px;
-  object-fit: cover;
-  object-position: bottom;
+.home-container8 {
+  flex: 0 0 auto;
+  width: 50%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 .home-previous-events {
   display: flex;
@@ -684,20 +479,20 @@ export default {
   flex-direction: column;
   padding-bottom: 150px;
 }
-.home-max-width3 {
+.home-max-width2 {
   flex-direction: column;
 }
-.home-heading-container2 {
+.home-heading-container {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-fourunits);
   flex-direction: column;
 }
-.home-text42 {
+.home-text37 {
   text-align: center;
 }
-.home-text44 {
+.home-text39 {
   color: var(--dl-color-scheme-darkgray);
   font-style: normal;
   text-align: center;
@@ -798,18 +593,8 @@ export default {
     max-width: 100%;
     margin-left: 0px;
   }
-  .home-events-container {
-    grid-template-columns: 1fr;
-  }
-  .home-numbers-container {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  .home-container8 {
+  .home-container7 {
     margin-right: var(--dl-space-space-unit);
-  }
-  .home-image3 {
-    width: 50%;
-    object-position: left;
   }
   .home-slider-controls {
     width: calc(75% + 48px);
@@ -823,7 +608,7 @@ export default {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-text08 {
+  .home-text13 {
     margin-left: -24px;
   }
   .home-btns-container1 {
@@ -831,23 +616,17 @@ export default {
     align-items: stretch;
     flex-direction: column;
   }
-  .home-numbers-container {
-    grid-template-columns: 1fr 1fr;
-  }
   .home-workshops {
     flex-direction: column-reverse;
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .home-container8 {
+  .home-container7 {
     max-width: 100%;
     padding-top: var(--dl-space-space-twounits);
     margin-right: 0px;
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-twounits);
-  }
-  .home-image3 {
-    width: 100%;
   }
   .home-previous-events {
     padding-bottom: var(--dl-space-space-sixunits);
@@ -861,7 +640,6 @@ export default {
     position: relative;
   }
   .home-container1 {
-    width: 100%;
     justify-content: center;
   }
 }

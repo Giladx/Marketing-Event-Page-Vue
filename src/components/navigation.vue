@@ -8,9 +8,12 @@
         <navigation-links
           rootClassName="navigation-links-root-class-name17"
         ></navigation-links>
-        <button class="navigation-register button-primary button button-md">
+        <a
+          href="tel:+18885031722"
+          class="navigation-register button-primary button button-md"
+        >
           {{ button }}
-        </button>
+        </a>
       </div>
       <div data-type="BurgerMenu" class="navigation-burger-menu">
         <svg viewBox="0 0 1024 1024" class="navigation-icon">
@@ -74,7 +77,7 @@ export default {
     },
     button: {
       type: String,
-      default: 'register',
+      default: 'Toll FREE: (888) 503-1722',
     },
     image_alt1: {
       type: String,
@@ -135,6 +138,7 @@ export default {
   border-color: var(--dl-color-scheme-pink);
   border-width: 1px;
   border-radius: var(--dl-radius-radius-radius4);
+  text-decoration: none;
   background-color: var(--dl-color-scheme-white);
 }
 .navigation-register:hover {
