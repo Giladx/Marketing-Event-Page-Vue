@@ -8,10 +8,10 @@
             <h1 class="home-text heading1">
               <span>
                 PURE CLEAN AIR DUCT FOR
-                <span v-html="rawxveo"></span>
+                <span v-html="rawovfs"></span>
               </span>
               <span class="home-text02">HEALTHY LIFE</span>
-              <span class="heading1"><span v-html="rawu8vt"></span></span>
+              <span class="heading1"><span v-html="rawl539"></span></span>
             </h1>
             <span class="home-text04">
               <span>GET YOUR TICKETS AT A HALF PRICE UNTIL 10.10.2022.</span>
@@ -78,7 +78,7 @@
             <div class="home-container6">
               <span class="home-text21">
                 The air ducts and filters
-                <span v-html="rawbk5j"></span>
+                <span v-html="raw559t"></span>
               </span>
               <span class="home-text22 content">
                 must be kept clean. Air ducts and filters accumulate dust, odors
@@ -114,15 +114,15 @@
             <h1 class="home-text26 heading2">
               <span>
                 register for
-                <span v-html="rawwby3"></span>
+                <span v-html="rawafsv"></span>
               </span>
               <br />
               <span class="home-text29">super insightful</span>
-              <span><span v-html="raw3n5t"></span></span>
+              <span><span v-html="rawe02i"></span></span>
               <br />
               <span>
                 workshops for
-                <span v-html="rawknvm"></span>
+                <span v-html="rawv1s1"></span>
               </span>
               <br />
               <span>your team</span>
@@ -201,12 +201,12 @@ export default {
 
   data() {
     return {
-      rawxveo: ' ',
-      rawu8vt: ' ',
-      rawbk5j: ' ',
-      rawwby3: ' ',
-      raw3n5t: ' ',
-      rawknvm: ' ',
+      rawovfs: ' ',
+      rawl539: ' ',
+      raw559t: ' ',
+      rawafsv: ' ',
+      rawe02i: ' ',
+      rawv1s1: ' ',
     }
   },
 
@@ -493,7 +493,7 @@ export default {
   text-align: center;
 }
 .home-text39 {
-  color: var(--dl-color-scheme-darkgray);
+  color: var(--dl-color-scheme-lightblue);
   font-style: normal;
   text-align: center;
   font-weight: 500;
