@@ -8,10 +8,10 @@
             <h1 class="home-text heading1">
               <span>
                 PURE CLEAN AIR DUCT FOR
-                <span v-html="rawovfs"></span>
+                <span v-html="rawkeij"></span>
               </span>
               <span class="home-text02">HEALTHY LIFE</span>
-              <span class="heading1"><span v-html="rawl539"></span></span>
+              <span class="heading1"><span v-html="rawdkh9"></span></span>
             </h1>
             <span class="home-text04">
               <span>GET YOUR TICKETS AT A HALF PRICE UNTIL 10.10.2022.</span>
@@ -78,7 +78,7 @@
             <div class="home-container6">
               <span class="home-text21">
                 The air ducts and filters
-                <span v-html="raw559t"></span>
+                <span v-html="rawt9by"></span>
               </span>
               <span class="home-text22 content">
                 must be kept clean. Air ducts and filters accumulate dust, odors
@@ -114,15 +114,15 @@
             <h1 class="home-text26 heading2">
               <span>
                 register for
-                <span v-html="rawafsv"></span>
+                <span v-html="rawr0tc"></span>
               </span>
               <br />
               <span class="home-text29">super insightful</span>
-              <span><span v-html="rawe02i"></span></span>
+              <span><span v-html="rawo3o8"></span></span>
               <br />
               <span>
                 workshops for
-                <span v-html="rawv1s1"></span>
+                <span v-html="rawmphj"></span>
               </span>
               <br />
               <span>your team</span>
@@ -201,12 +201,12 @@ export default {
 
   data() {
     return {
-      rawovfs: ' ',
-      rawl539: ' ',
-      raw559t: ' ',
-      rawafsv: ' ',
-      rawe02i: ' ',
-      rawv1s1: ' ',
+      rawkeij: ' ',
+      rawdkh9: ' ',
+      rawt9by: ' ',
+      rawr0tc: ' ',
+      rawo3o8: ' ',
+      rawmphj: ' ',
     }
   },
 

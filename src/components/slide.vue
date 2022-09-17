@@ -36,7 +36,7 @@ export default {
   background-color: var(--dl-color-scheme-pink);
 }
 .slide-root-class-name1 {
-  background-color: #15bd19;
+  background-color: var(--dl-color-scheme-darkgray);
 }
 .slide-root-class-name2 {
   background-color: var(--dl-color-scheme-pink);

@@ -5,9 +5,9 @@
         <span class="copyright-text01">
           <span>
             © All rights reserved
-            <span v-html="rawerni"></span>
+            <span v-html="rawddks"></span>
           </span>
-          <span><span v-html="rawx3iq"></span></span>
+          <span><span v-html="rawq5vo"></span></span>
         </span>
         <a
           href="https://www.teleporthq.io"
@@ -19,9 +19,9 @@
         <span class="copyright-text05">
           <span>
             Powered by
-            <span v-html="rawtwpc"></span>
+            <span v-html="rawqwna"></span>
           </span>
-          <span><span v-html="rawhtu3"></span></span>
+          <span><span v-html="rawn7sj"></span></span>
         </span>
         <a
           href="https://www.vercel.com"
@@ -33,9 +33,9 @@
         <span class="copyright-text09">
           <span>
             . Image source:
-            <span v-html="rawmpot"></span>
+            <span v-html="raw2s3g"></span>
           </span>
-          <span><span v-html="raw9m9e"></span></span>
+          <span><span v-html="raw5gsj"></span></span>
         </span>
         <a
           href="https://www.unsplash.com"
@@ -59,12 +59,12 @@ export default {
 
   data() {
     return {
-      rawerni: ' ',
-      rawx3iq: ' ',
-      rawtwpc: ' ',
-      rawhtu3: ' ',
-      rawmpot: ' ',
-      raw9m9e: ' ',
+      rawddks: ' ',
+      rawq5vo: ' ',
+      rawqwna: ' ',
+      rawn7sj: ' ',
+      raw2s3g: ' ',
+      raw5gsj: ' ',
     }
   },
 }
