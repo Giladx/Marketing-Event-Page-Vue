@@ -47,4 +47,19 @@ export default {
 .slide-root-class-name4 {
   background-color: var(--dl-color-scheme-darkblue);
 }
+.slide-root-class-name5 {
+  background-color: var(--dl-color-scheme-darkblue);
+}
+.slide-root-class-name6 {
+  background-color: #15bd19;
+}
+.slide-root-class-name7 {
+  background-color: #ff9b1d;
+}
+.slide-root-class-name8 {
+  background-color: var(--dl-color-scheme-lightblue);
+}
+.slide-root-class-name9 {
+  background-color: var(--dl-color-scheme-pink);
+}
 </style>

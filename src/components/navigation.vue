@@ -1,7 +1,9 @@
 <template>
   <header data-role="Header" class="navigation-header">
     <div class="navigation-max-width">
-      <img :alt="image_alt" :src="image_src" />
+      <router-link to="/" class="navigation-navlink">
+        <img :alt="image_alt" :src="image_src" class="navigation-image" />
+      </router-link>
       <div class="navigation-nav">
         <navigation-links
           rootClassName="navigation-links-root-class-name17"
@@ -113,6 +115,12 @@ export default {
   padding-right: var(--dl-space-space-oneandhalfunits);
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
+}
+.navigation-navlink {
+  display: contents;
+}
+.navigation-image {
+  text-decoration: none;
 }
 .navigation-nav {
   flex: 0 0 auto;

@@ -96,9 +96,9 @@
           <span>
             <span>
               © All rights reserved
-              <span v-html="rawjz75"></span>
+              <span v-html="rawylzi"></span>
             </span>
-            <span><span v-html="rawq2vc"></span></span>
+            <span><span v-html="rawvd6l"></span></span>
           </span>
           <a
             href="https://www.teleporthq.io"
@@ -110,9 +110,9 @@
           <span>
             <span>
               Powered by
-              <span v-html="raw93df"></span>
+              <span v-html="rawz1ks"></span>
             </span>
-            <span><span v-html="rawc2pw"></span></span>
+            <span><span v-html="rawa32r"></span></span>
           </span>
           <a
             href="https://www.vercel.com"
@@ -124,9 +124,9 @@
           <span>
             <span>
               . Image source:
-              <span v-html="rawnjks"></span>
+              <span v-html="rawv8sm"></span>
             </span>
-            <span><span v-html="rawsdit"></span></span>
+            <span><span v-html="rawytgp"></span></span>
           </span>
           <a
             href="https://www.unsplash.com"
@@ -152,12 +152,12 @@ export default {
 
   data() {
     return {
-      rawjz75: ' ',
-      rawq2vc: ' ',
-      raw93df: ' ',
-      rawc2pw: ' ',
-      rawnjks: ' ',
-      rawsdit: ' ',
+      rawylzi: ' ',
+      rawvd6l: ' ',
+      rawz1ks: ' ',
+      rawa32r: ' ',
+      rawv8sm: ' ',
+      rawytgp: ' ',
     }
   },
 }
@@ -372,6 +372,7 @@ export default {
 .footer-text35 {
   text-decoration: underline;
 }
+
 
 @media(max-width: 991px) {
   .footer-bottom-container {

@@ -1,8 +1,10 @@
 <template>
   <nav class="navigation-links-nav" v-bind:class="rootClassName">
-    <span class="navigation-links-text navigation-Link">{{ link1 }}</span>
-    <span class="navigation-links-text1 navigation-Link">{{ link2 }}</span>
-    <span class="navigation-links-text2 navigation-Link">{{ link3 }}</span>
+    <router-link to="/ablout" class="navigation-links-navlink navigation-Link">
+      {{ link1 }}
+    </router-link>
+    <span class="navigation-links-text navigation-Link">{{ link2 }}</span>
+    <span class="navigation-links-text1 navigation-Link">{{ link3 }}</span>
   </nav>
 </template>
 
@@ -34,10 +36,20 @@ export default {
   align-items: center;
   flex-direction: row;
 }
+.navigation-links-navlink {
+  color: var(--dl-color-scheme-white);
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.navigation-links-navlink:hover {
+  color: var(--dl-color-scheme-pink);
+}
 .navigation-links-text {
   color: var(--dl-color-scheme-white);
   cursor: pointer;
   transition: 0.3s;
+  margin-left: 41px;
 }
 .navigation-links-text:hover {
   color: var(--dl-color-scheme-pink);
@@ -49,15 +61,6 @@ export default {
   margin-left: 41px;
 }
 .navigation-links-text1:hover {
-  color: var(--dl-color-scheme-pink);
-}
-.navigation-links-text2 {
-  color: var(--dl-color-scheme-white);
-  cursor: pointer;
-  transition: 0.3s;
-  margin-left: 41px;
-}
-.navigation-links-text2:hover {
   color: var(--dl-color-scheme-pink);
 }
 
@@ -73,14 +76,14 @@ export default {
     align-items: flex-start;
     flex-direction: column;
   }
-  .navigation-links-text {
+  .navigation-links-navlink {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links-text1 {
+  .navigation-links-text {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links-text2 {
+  .navigation-links-text1 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }

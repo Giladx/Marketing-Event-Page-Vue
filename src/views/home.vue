@@ -8,7 +8,7 @@
             <h1 class="home-text heading1">
               <span>
                 THE MOST INSIGHTFUL
-                <span v-html="rawr2c6"></span>
+                <span v-html="raw2v81"></span>
               </span>
               <span class="home-text02">MARKETING CONFERENCE</span>
               <br />
@@ -283,15 +283,15 @@
             <h1 class="home-text38 heading2">
               <span>
                 register for
-                <span v-html="raws4ri"></span>
+                <span v-html="rawhrrj"></span>
               </span>
               <br />
               <span class="home-text41">super insightful</span>
-              <span><span v-html="rawvkwt"></span></span>
+              <span><span v-html="rawntzu"></span></span>
               <br />
               <span>
                 workshops for
-                <span v-html="rawgh0j"></span>
+                <span v-html="rawd5ri"></span>
               </span>
               <br />
               <span>your team</span>
@@ -380,10 +380,10 @@ export default {
 
   data() {
     return {
-      rawr2c6: ' ',
-      raws4ri: ' ',
-      rawvkwt: ' ',
-      rawgh0j: ' ',
+      raw2v81: ' ',
+      rawhrrj: ' ',
+      rawntzu: ' ',
+      rawd5ri: ' ',
     }
   },
 

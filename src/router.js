@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Meta from 'vue-meta'
 
 import Home from './views/home'
+import Ablout from './views/ablout'
 import './style.css'
 
 Vue.use(Router)
@@ -14,6 +15,11 @@ export default new Router({
       name: 'Home',
       path: '/',
       component: Home,
+    },
+    {
+      name: 'Ablout',
+      path: '/ablout',
+      component: Ablout,
     },
   ],
 })
