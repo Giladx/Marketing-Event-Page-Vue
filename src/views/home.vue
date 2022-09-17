@@ -5,17 +5,16 @@
       <div class="home-hero section-container">
         <div class="home-max-width max-content-container">
           <div class="home-content-container">
-            <h1 class="home-text heading1">
-              <span>
+            <h1 class="home-text">
+              <span class="home-text01">
                 PURE CLEAN AIR DUCT FOR
-                <span v-html="rawkeij"></span>
+                <span v-html="rawmzw4"></span>
               </span>
-              <span class="home-text02">HEALTHY LIFE</span>
-              <span class="heading1"><span v-html="rawdkh9"></span></span>
+              <span class="home-text02 heading1">HEALTHY LIFE</span>
+              <span class="heading1"><span v-html="raww1pz"></span></span>
             </h1>
             <span class="home-text04">
               <span>GET YOUR TICKETS AT A HALF PRICE UNTIL 10.10.2022.</span>
-              <br />
               <span>HURRY UP, LIMITED NUMBERS AVAILABLE.</span>
             </span>
             <div class="home-btns-container">
@@ -78,7 +77,7 @@
             <div class="home-container6">
               <span class="home-text21">
                 The air ducts and filters
-                <span v-html="rawt9by"></span>
+                <span v-html="raw62xm"></span>
               </span>
               <span class="home-text22 content">
                 must be kept clean. Air ducts and filters accumulate dust, odors
@@ -93,7 +92,7 @@
                   href="tel:+18885031722"
                   class="home-register button-secondary button button-md"
                 >
-                  <span>
+                  <span class="home-text23">
                     <span>call now</span>
                     <br />
                   </span>
@@ -111,21 +110,21 @@
       <div class="home-workshops">
         <div class="home-content-container2">
           <div class="home-container7">
-            <h1 class="home-text26 heading2">
-              <span>
+            <h1 class="home-text26">
+              <span class="home-text27">
                 register for
-                <span v-html="rawr0tc"></span>
+                <span v-html="rawfods"></span>
               </span>
-              <br />
-              <span class="home-text29">super insightful</span>
-              <span><span v-html="rawo3o8"></span></span>
-              <br />
-              <span>
+              <br class="heading2" />
+              <span class="home-text29 heading2">super insightful</span>
+              <span class="heading2"><span v-html="rawxl54"></span></span>
+              <br class="heading2" />
+              <span class="home-text32">
                 workshops for
-                <span v-html="rawmphj"></span>
+                <span v-html="rawbe9k"></span>
               </span>
-              <br />
-              <span>your team</span>
+              <br class="heading2" />
+              <span class="home-text34">your team</span>
             </h1>
             <span class="home-text35">
               get early discounts and group discounts
@@ -135,7 +134,9 @@
               sint. Velit officia consequat duis enim velit mollit. Exercitation
               veniam consequat sunt nostrud amet.
             </span>
-            <button class="button button-md button-outline">learn more</button>
+            <button class="button button-md button-outline home-learn-more1">
+              learn more
+            </button>
           </div>
         </div>
         <div class="home-container8"></div>
@@ -201,12 +202,12 @@ export default {
 
   data() {
     return {
-      rawkeij: ' ',
-      rawdkh9: ' ',
-      rawt9by: ' ',
-      rawr0tc: ' ',
-      rawo3o8: ' ',
-      rawmphj: ' ',
+      rawmzw4: ' ',
+      raww1pz: ' ',
+      raw62xm: ' ',
+      rawfods: ' ',
+      rawxl54: ' ',
+      rawbe9k: ' ',
     }
   },
 
@@ -566,6 +567,83 @@ export default {
 .home-icon2 {
   width: 24px;
   height: 24px;
+}
+@media(max-width: 1600px) {
+  .home-text17 {
+    align-self: flex-end;
+    margin-left: 0px;
+  }
+}
+@media(max-width: 1200px) {
+  .home-text {
+    font-size: 64px;
+    font-style: normal;
+    font-family: IBM Plex Sans Condensed;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .home-text01 {
+    color: var(--dl-color-scheme-black);
+  }
+  .home-text04 {
+    color: var(--dl-color-scheme-black);
+    font-style: normal;
+    font-weight: 500;
+  }
+  .home-text16 {
+    color: var(--dl-color-scheme-black);
+  }
+  .home-text18 {
+    color: var(--dl-color-scheme-black);
+    align-self: flex-end;
+    font-style: normal;
+    font-weight: 300;
+    margin-left: 0px;
+  }
+  .home-text21 {
+    color: var(--dl-color-scheme-black);
+  }
+  .home-text22 {
+    color: var(--dl-color-scheme-black);
+  }
+  .home-text23 {
+    color: var(--dl-color-scheme-black);
+  }
+  .home-text26 {
+    font-size: 42px;
+    font-family: IBM Plex Sans Condensed;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .home-text27 {
+    color: var(--dl-color-scheme-black);
+  }
+  .home-text32 {
+    color: var(--dl-color-scheme-black);
+  }
+  .home-text34 {
+    color: var(--dl-color-scheme-black);
+  }
+  .home-text35 {
+    color: var(--dl-color-scheme-black);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .home-text36 {
+    color: var(--dl-color-scheme-black);
+  }
+  .home-learn-more1 {
+    color: var(--dl-color-scheme-black);
+    border-color: var(--dl-color-scheme-black);
+  }
+  .home-text37 {
+    color: var(--dl-color-scheme-black);
+  }
 }
 @media(max-width: 991px) {
   .home-max-width {

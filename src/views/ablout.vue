@@ -51,21 +51,21 @@
       <div class="ablout-workshops">
         <div class="ablout-content-container1">
           <div class="ablout-container6">
-            <h1 class="ablout-text14 heading2">
-              <span>
+            <h1 class="ablout-text14">
+              <span class="ablout-text15">
                 register for
-                <span v-html="raw9mc0"></span>
+                <span v-html="raw6o9u"></span>
               </span>
-              <br />
-              <span class="ablout-text17">super insightful</span>
-              <span><span v-html="rawfvch"></span></span>
-              <br />
-              <span>
+              <br class="heading2" />
+              <span class="heading2">super insightful</span>
+              <span class="heading2"><span v-html="rawulqx"></span></span>
+              <br class="heading2" />
+              <span class="ablout-text20">
                 workshops for
-                <span v-html="raw4lz8"></span>
+                <span v-html="raw20am"></span>
               </span>
-              <br />
-              <span>your team</span>
+              <br class="heading2" />
+              <span class="ablout-text22">your team</span>
             </h1>
             <span class="ablout-text23">
               get early discounts and group discounts
@@ -75,7 +75,9 @@
               sint. Velit officia consequat duis enim velit mollit. Exercitation
               veniam consequat sunt nostrud amet.
             </span>
-            <button class="button button-md button-outline">learn more</button>
+            <button class="ablout-learn-more1 button button-md button-outline">
+              learn more
+            </button>
           </div>
         </div>
         <div class="ablout-container7"></div>
@@ -133,9 +135,9 @@ export default {
 
   data() {
     return {
-      raw9mc0: ' ',
-      rawfvch: ' ',
-      raw4lz8: ' ',
+      raw6o9u: ' ',
+      rawulqx: ' ',
+      raw20am: ' ',
     }
   },
 
@@ -278,14 +280,14 @@ export default {
   flex-direction: column;
 }
 .ablout-text09 {
-  color: var(--dl-color-scheme-lightblue);
+  color: var(--dl-color-scheme-black);
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
 .ablout-text10 {
-  color: var(--dl-color-scheme-lightblue);
+  color: var(--dl-color-scheme-black);
   margin-bottom: var(--dl-space-space-twounits);
   text-transform: none;
 }
@@ -295,9 +297,9 @@ export default {
   align-items: flex-start;
 }
 .ablout-learn-more {
-  color: var(--dl-color-scheme-lightblue);
+  color: var(--dl-color-scheme-black);
   transition: 0.3s;
-  border-color: var(--dl-color-scheme-lightblue);
+  border-color: var(--dl-color-scheme-black);
 }
 .ablout-learn-more:hover {
   border-color: var(--dl-color-scheme-pink);
@@ -325,20 +327,38 @@ export default {
   flex-direction: column;
 }
 .ablout-text14 {
+  font-size: 42px;
+  font-family: IBM Plex Sans Condensed;
+  font-weight: 700;
+  line-height: 1.1;
   margin-bottom: 42px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
-.ablout-text17 {
-  color: var(--dl-color-scheme-pink);
+.ablout-text15 {
+  color: var(--dl-color-scheme-black);
+}
+.ablout-text20 {
+  color: var(--dl-color-scheme-black);
+}
+.ablout-text22 {
+  color: var(--dl-color-scheme-black);
 }
 .ablout-text23 {
+  color: var(--dl-color-scheme-black);
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
 .ablout-text24 {
+  color: var(--dl-color-scheme-black);
   margin-bottom: var(--dl-space-space-threeunits);
   text-transform: none;
+}
+.ablout-learn-more1 {
+  color: var(--dl-color-scheme-black);
+  border-color: var(--dl-color-scheme-black);
 }
 .ablout-container7 {
   flex: 0 0 auto;
